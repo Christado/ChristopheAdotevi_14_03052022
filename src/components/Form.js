@@ -5,7 +5,6 @@ import { states, departments } from "../datas/formFieldSelectData";
 import { pushEmployee } from "../utils/services/reducer/employees";
 import { actions} from "../utils/services/reducer/employee";
 import Modal from "modal-christ/dist/Modal";
-//import { Modal } from 'react_modal_liba';
 import {
   employeeAdress,
   employeeInfos,

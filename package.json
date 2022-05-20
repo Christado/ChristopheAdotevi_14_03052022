@@ -24,7 +24,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "nightwatch",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -44,5 +44,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "chromedriver": "^101.0.0",
+    "geckodriver": "^3.0.1",
+    "gulp": "^4.0.2",
+    "gulp-webdriver": "^4.0.0",
+    "nightwatch": "^2.1.7",
+    "webdriver": "^7.19.7"
   }
 }
